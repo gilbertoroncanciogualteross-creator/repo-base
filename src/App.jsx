@@ -7,8 +7,6 @@ import './App.css'
 function App() {
     const [count, setCount] = useState(0)
 
-    const variableInutil = 42
-
     return (
         <>
             <section id="center">
