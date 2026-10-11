@@ -41,7 +41,7 @@ function App() {
                 </header>
 
                 <section className="p-8">
-                    <h2 className="text3xl md:text-4xl font-bold mb-6 leading-tight">Get the Most Out of Your Investments</h2>
+                    <h2 className="text-3xl md:text-4xl font-bold mb-6 leading-tight">Get the Most Out of Your Investments</h2>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                         <article className="flex flex-col gap-3 bg-surface rounded-md p-12">
                             <h3 className="text-xl md:text-2xl">Unlimited Portfolio Accounts</h3>
@@ -60,9 +60,9 @@ function App() {
                     <div>
                         <h2>Advantages</h2>
                         <p>
-                            We listen our customers and work with them
+                            We listen to our customers and work with them
                             to improve the user experience of our platform.
-                        </p>
+                         </p>
                     </div>
                     <div>
                         <article>
@@ -71,7 +71,7 @@ function App() {
                                 Without a visit to office, we will set up
                                 your brokerage account in 5 minutes.
                             </p>
-                            <button class="btn-inverse">Open an Account</button>
+                            <button>Open an Account</button>
                         </article>
 
                         <article>
@@ -84,10 +84,10 @@ function App() {
                         </article>
 
                         <article>
-                            <h3>Low Comissions</h3>
+                            <h3>Low Commissions</h3>
                             <p>
                                 We give you the best rate we can for any kind of
-                                transactions. no extra fees.
+                                transactions. No extra fees.
                             </p>
                             <button>Explore Prices</button>
                         </article>
@@ -102,7 +102,62 @@ function App() {
                         </article>
                     </div>
                 </section>
+                <section>
+                    <h2>Our Partners</h2>
+                    <p>
+                        The largest banks, funds and exchanges from all over the world
+                        cooperate with us.
+                    </p>
+                    <div>
+                        <div>A</div>
+                        <div>B</div>
+                        <div>C</div>
+                        <div>D</div>
+                        <div>E</div>
+                        <div>F</div>
+                        <div>G</div>
+                        <div>H</div>
+                    </div>
+                </section>
+                <section>
+                    <h2>
+                        Get the app for Free
+                        and Start Now
+                    </h2>
+                    <button>Download App</button>
+                </section>
 
+                <footer>
+                    <div>Cashmap</div>
+
+                    <div>
+                        <h4>Resources</h4>
+                        <ul>
+                            <li><a href>Stocks &amp; Funds</a></li>
+                            <li><a href>Learn</a></li>
+                            <li><a href>Help &amp; Support</a></li>
+                            <li><a href>Blog</a></li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h4>Company</h4>
+                        <ul>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Careers</a></li>
+                            <li><a href="#">Privacy</a></li>
+                            <li><a href="#">Terms</a></li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h4>Subscribe to News</h4>
+                        <form>
+                            <input type="email" placeholder="Your e-mail"/>
+                            <button type="submit"></button>
+                        </form>
+                    </div>
+                </footer>
             </div>
         </div>
     )
