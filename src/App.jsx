@@ -1,7 +1,7 @@
 function App() {
     return (
         <div className="bg-page">
-            <div className="flex flex-col gap-24 max-w-[1400px] mx-auto font-sans overflow-hidden rounded-lg bg-bg">                
+            <div className="max-w-[1400px] mx-auto font-sans overflow-hidden rounded-lg bg-bg">                
 
                 <nav className="flex items-center flex-wrap py-4 px-8">
                     <div className="flex-1 font-bold">Cashmap</div>
@@ -24,10 +24,10 @@ function App() {
                     </div>
                 </nav>
 
-                <header className="grid grid-cols-1 gap-8 items-center bg-accent p-16 mx-8 rounded-md">
-                    <div className="HERO TEXTflex-1">
-                        <h1 className="text-4xl md:text-6xl font-bold mt-4 leading-tight p-8">Invest for the Future</h1>
-                        <p className="text-lg mt-6 max-w-md p-6 text-on-accent">
+                <header className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center bg-accent p-16 m-8 rounded-md">
+                    <div>
+                        <h1 className="text-4xl md:text-6xl font-semibold mt-4 leading-tight">Invest for the Future</h1>
+                        <p className="text-lg mt-4 max-w-md text-on-accent">
                             Work with all the necessary information and tools to boost
                             money flow from your capital investment using Cashmap!
                         </p>
@@ -36,16 +36,16 @@ function App() {
                             <button className="bg-transparent text-on-accent">Find Out More</button>
                         </div>
                     </div>
-                    <div className="bg-black/10 rounded-md min-h-64 flex justify-center text-sm items-center" >Ilustracion</div>
+                    <div className="bg-black/10 rounded-md min-h-[300px] flex items-center justify-center text-sm text-on-accent">Ilustracion</div>
                 </header>
 
-                <section className="p-8">
+                <section className="py-24 px-8">
                     <h2 className="text-3xl md:text-4xl font-bold mb-6 leading-tight">Get the Most Out of Your Investments</h2>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                         <article className="flex flex-col gap-3 bg-surface rounded-md p-12">
                             <h3 className="text-xl md:text-2xl">Unlimited Portfolio Accounts</h3>
                             <p className="text-on-accent">Manage all your financial assets from one place</p>
-                            <button className="s elf-start">Find Out More</button>
+                            <button className="self-start">Find Out More</button>
                         </article>
                         <article className="flex flex-col gap-3 bg-surface rounded-md p-12">
                             <h3 className="text-xl md:text-2xl">Full Analytics in Your App</h3>
@@ -55,7 +55,7 @@ function App() {
                     </div>
                 </section>
 
-                <section className="p-8 grid grid-cols-1 md:grid-cols-2 gap-8">
+                <section className="py-24 px-8 grid grid-cols-1 md:grid-cols-2 gap-8">
                     <div>
                         <h2 className="text-3xl md:text-4xl">Advantages</h2>
                         <p>
@@ -108,15 +108,15 @@ function App() {
                         The largest banks, funds and exchanges from all over the world
                         cooperate with us.
                     </p>
-                    <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-                        <div className="aspect-square bg-surface rounded-md">A</div>
-                        <div className="aspect-square bg-surface rounded-md">B</div>
-                        <div className="aspect-square bg-surface rounded-md">C</div>
-                        <div className="aspect-square bg-surface rounded-md">D</div>
-                        <div className="aspect-square bg-surface rounded-md">E</div>
-                        <div className="aspect-square bg-surface rounded-md">F</div>
-                        <div className="aspect-square bg-surface rounded-md">G</div>
-                        <div className="aspect-square bg-surface rounded-md">H</div>
+                    <div className="flex flex-wrap justify-center gap-4">
+                        <div className="">A</div>
+                        <div className="">B</div>
+                        <div className="">C</div>
+                        <div className="flex items-center justify-center bg-surface size-[50px] rounded-full">D</div>
+                        <div className="flex items-center justify-center bg-surface size-[50px] rounded-full">E</div>
+                        <div className="flex items-center justify-center bg-surface size-[50px] rounded-full">F</div>
+                        <div className="flex items-center justify-center bg-surface size-[50px] rounded-full">G</div>
+                        <div className="flex items-center justify-center bg-surface size-[50px] rounded-full">H</div>
                     </div>
                 </section>
 
@@ -125,7 +125,7 @@ function App() {
                         Get the app for Free
                         and Start Now
                     </h2>
-                    <button className="bg-inverse text-on-inverse mx-8">Download App</button>
+                    <button className="bg-inverse text-on-inverse px-8">Download App</button>
                 </section>
 
                 <footer>
