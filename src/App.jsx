@@ -4,7 +4,7 @@ function App() {
             <div className="max-w-[1400px] mx-auto font-sans overflow-hidden rounded-lg bg-bg">                
 
                 <nav className="flex items-center flex-wrap py-4 px-8">
-                    <div className="flex-1 font-bold">Cashmap</div>
+                    <div className="flex-1 font-semibold">Cashmap</div>
                     <ul className="flex gap-8 flex-wrap">
                         <li><a href="#">About Us</a></li>
                         <li><a href="#">Catalog</a></li>
@@ -27,7 +27,7 @@ function App() {
                 <header className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center bg-accent p-16 m-8 rounded-md">
                     <div>
                         <h1 className="text-4xl md:text-6xl font-semibold mt-4 leading-tight">Invest for the Future</h1>
-                        <p className="text-lg mt-4 max-w-md text-on-accent">
+                        <p className="text-base mt-4 max-w-md text-on-accent">
                             Work with all the necessary information and tools to boost
                             money flow from your capital investment using Cashmap!
                         </p>
@@ -40,14 +40,14 @@ function App() {
                 </header>
 
                 <section className="py-24 px-8">
-                    <h2 className="text-3xl md:text-4xl font-bold mb-6 leading-tight">Get the Most Out of Your Investments</h2>
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                        <article className="flex flex-col gap-3 bg-surface rounded-md p-12">
+                    <h2 className="text-3xl md:text-4xl font-semibold mb-8 leading-tight">Get the Most Out of Your Investments</h2>
+                    <div className="grid grid-cols-[repeat(auto-fit,minmax(280px,1fr))] gap-8">
+                        <article className="flex flex-col gap-3 bg-surface rounded-md p-8">
                             <h3 className="text-xl md:text-2xl">Unlimited Portfolio Accounts</h3>
                             <p className="text-on-accent">Manage all your financial assets from one place</p>
                             <button className="self-start">Find Out More</button>
                         </article>
-                        <article className="flex flex-col gap-3 bg-surface rounded-md p-12">
+                        <article className="flex flex-col gap-3 bg-surface rounded-md p-8">
                             <h3 className="text-xl md:text-2xl">Full Analytics in Your App</h3>
                             <p className="text-on-accent">Analyze the results and try different Strategies for more income</p>
                             <button className="self-start">Read More</button>
@@ -64,7 +64,7 @@ function App() {
                          </p>
                     </div>
                     <div className="grid grid-cols-2 gap-6">
-                        <article className="flex flex-col bg-surface rounded-md p-12"> 
+                        <article className="flex flex-col bg-surface rounded-md p-8"> 
                             <h3>Smooth Start</h3>
                             <p>
                                 Without a visit to office, we will set up
@@ -73,7 +73,7 @@ function App() {
                             <button>Open an Account</button>
                         </article>
 
-                        <article className="flex flex-col bg-surface rounded-md p-12">
+                        <article className="flex flex-col bg-surface rounded-md p-8">
                             <h3>24/7 Support</h3>
                             <p>
                                 Our support team is always available to answer
@@ -82,7 +82,7 @@ function App() {
                             <button>Ask a Question</button>
                         </article>
 
-                        <article className="flex flex-col bg-surface rounded-md p-12">
+                        <article className="flex flex-col bg-surface rounded-md p-8">
                             <h3>Low Commissions</h3>
                             <p>
                                 We give you the best rate we can for any kind of
@@ -90,8 +90,7 @@ function App() {
                             </p>
                             <button>Explore Prices</button>
                         </article>
-
-                        <article className="flex flex-col bg-surface rounded-md p-12">
+                        <article className="flex flex-col bg-surface rounded-md p-8">
                             <h3>Invest Any Amount</h3>
                             <p>
                                 You don't have to have large sums to start investing,
@@ -109,9 +108,9 @@ function App() {
                         cooperate with us.
                     </p>
                     <div className="flex flex-wrap justify-center gap-4">
-                        <div className="">A</div>
-                        <div className="">B</div>
-                        <div className="">C</div>
+                        <div className="flex items-center justify-center bg-surface size-[50px] rounded-full">A</div>
+                        <div className="flex items-center justify-center bg-surface size-[50px] rounded-full">B</div>
+                        <div className="flex items-center justify-center bg-surface size-[50px] rounded-full">C</div>
                         <div className="flex items-center justify-center bg-surface size-[50px] rounded-full">D</div>
                         <div className="flex items-center justify-center bg-surface size-[50px] rounded-full">E</div>
                         <div className="flex items-center justify-center bg-surface size-[50px] rounded-full">F</div>
