@@ -55,7 +55,7 @@ function App() {
                     </div>
                 </section>
 
-                <section className="py-24 px-8 grid grid-cols-1 md:grid-cols-2 gap-8">
+                <section className="py-24 px-8 flex flex-col justify-center items-center gap-8 md:flex-row md:gap-24">
                     <div>
                         <h2 className="text-3xl md:text-4xl">Advantages</h2>
                         <p>
@@ -63,45 +63,45 @@ function App() {
                             to improve the user experience of our platform.
                          </p>
                     </div>
-                    <div className="grid grid-cols-2 gap-6">
-                        <article className="flex flex-col bg-surface rounded-md p-8"> 
-                            <h3>Smooth Start</h3>
-                            <p>
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-4 ">
+                        <article className="p-8"> 
+                            <h3 className="font-bold text-lg my-4">Smooth Start</h3>
+                            <p className="my-4">
                                 Without a visit to office, we will set up
                                 your brokerage account in 5 minutes.
                             </p>
-                            <button>Open an Account</button>
+                            <button className="border-none rounded-sm p-4 bg-surface text-text">Open an Account</button>
                         </article>
 
-                        <article className="flex flex-col bg-surface rounded-md p-8">
-                            <h3>24/7 Support</h3>
-                            <p>
+                        <article className="p-8">
+                            <h3 className="font-bold text-lg my-4">24/7 Support</h3>
+                            <p className="my-4">
                                 Our support team is always available to answer
                                 questions and resolve any issues.
                             </p>
-                            <button>Ask a Question</button>
+                            <button className="border-none rounded-sm p-4 bg-surface text-text">Ask a Question</button>
                         </article>
 
-                        <article className="flex flex-col bg-surface rounded-md p-8">
-                            <h3>Low Commissions</h3>
-                            <p>
+                        <article className="p-8">
+                            <h3 className="font-bold text-lg my-4">Low Commissions</h3>
+                            <p className="my-4">
                                 We give you the best rate we can for any kind of
                                 transactions. No extra fees.
                             </p>
-                            <button>Explore Prices</button>
+                            <button className="border-none rounded-sm p-4 bg-surface text-text">Explore Prices</button>
                         </article>
-                        <article className="flex flex-col bg-surface rounded-md p-8">
-                            <h3>Invest Any Amount</h3>
-                            <p>
+                        <article className="p-8">
+                            <h3 className="font-bold text-lg my-4">Invest Any Amount</h3>
+                            <p className="my-4">
                                 You don't have to have large sums to start investing,
                                 start small.
                             </p>
-                            <button>Start Now</button>
+                            <button className="border-none rounded-sm p-4 bg-surface">Start Now</button>
                         </article>
                     </div>
                 </section>
 
-                <section className="flex flex-col gap-4 items-center">
+                <section className="flex flex-col gap-4 items-center py-24 px-8">
                     <h2 className="text-3xl md:text-4xl">Our Partners</h2>
                     <p>
                         The largest banks, funds and exchanges from all over the world
@@ -119,20 +119,20 @@ function App() {
                     </div>
                 </section>
 
-                <section className="flex flex-col items-center mx-8 text-center py-24 px-8">
+                <section className="flex flex-col items-center text-center rounded-sm py-24 px-8">
                     <h2 className="text-3xl md:text-4xl">
                         Get the app for Free
                         and Start Now
                     </h2>
-                    <button className="bg-inverse text-on-inverse px-8">Download App</button>
+                    <button className="bg-inverse text-on-inverse rounded-sm py-2 px-8 my-4">Download App</button>
                 </section>
 
-                <footer>
+                <footer className="bg-surface">
                     <div>Cashmap</div>
 
                     <div>
                         <h4>Resources</h4>
-                        <ul>
+                        <ul className="ps-10">
                             <li><a href>Stocks &amp; Funds</a></li>
                             <li><a href>Learn</a></li>
                             <li><a href>Help &amp; Support</a></li>
@@ -142,7 +142,7 @@ function App() {
 
                     <div>
                         <h4>Company</h4>
-                        <ul>
+                        <ul className="p-2 ps-10">
                             <li><a href="#">About</a></li>
                             <li><a href="#">Careers</a></li>
                             <li><a href="#">Privacy</a></li>
@@ -154,7 +154,7 @@ function App() {
                         <h4>Subscribe to News</h4>
                         <form>
                             <input type="email" placeholder="Your e-mail"/>
-                            <button type="submit"></button>
+                            <button type="submit">Subscribe</button>
                         </form>
                     </div>
                 </footer>
