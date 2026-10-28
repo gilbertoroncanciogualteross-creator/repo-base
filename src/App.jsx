@@ -18,7 +18,7 @@ function App() {
                         <button className="bg-inverse text-on-inverse px-8 py-2 rounded-sm font-semibold hover:opacity-90 cursor-pointer">
                             Download App
                         </button>
-                        <button id="theme-toggle">
+                        <button id="theme-toggle cursor-pointer">
                             🌙/☀️
                         </button>
                     </div>
@@ -45,7 +45,7 @@ function App() {
                         <article className="flex flex-col gap-3 bg-surface rounded-md p-8">
                             <h3 className="text-xl md:text-2xl">Unlimited Portfolio Accounts</h3>
                             <p className="text-on-accent">Manage all your financial assets from one place</p>
-                            <button className="self-start">Find Out More</button>
+                            <button className="self-start cursor-pointer">Find Out More</button>
                         </article>
                         <article className="flex flex-col gap-3 bg-surface rounded-md p-8">
                             <h3 className="text-xl md:text-2xl">Full Analytics in Your App</h3>
@@ -70,7 +70,7 @@ function App() {
                                 Without a visit to office, we will set up
                                 your brokerage account in 5 minutes.
                             </p>
-                            <button className="border-none rounded-sm p-4 bg-surface text-text">Open an Account</button>
+                            <button className="border-none rounded-sm p-4 bg-surface text-text cursor-pointer">Open an Account</button>
                         </article>
 
                         <article className="p-8">
@@ -79,7 +79,7 @@ function App() {
                                 Our support team is always available to answer
                                 questions and resolve any issues.
                             </p>
-                            <button className="border-none rounded-sm p-4 bg-surface text-text">Ask a Question</button>
+                            <button className="border-none rounded-sm p-4 bg-surface text-text cursor-pointer">Ask a Question</button>
                         </article>
 
                         <article className="p-8">
@@ -88,7 +88,7 @@ function App() {
                                 We give you the best rate we can for any kind of
                                 transactions. No extra fees.
                             </p>
-                            <button className="border-none rounded-sm p-4 bg-surface text-text">Explore Prices</button>
+                            <button className="border-none rounded-sm p-4 bg-surface text-text cursor-pointer">Explore Prices</button>
                         </article>
                         <article className="p-8">
                             <h3 className="font-bold text-lg my-4">Invest Any Amount</h3>
@@ -96,7 +96,7 @@ function App() {
                                 You don't have to have large sums to start investing,
                                 start small.
                             </p>
-                            <button className="border-none rounded-sm p-4 bg-surface">Start Now</button>
+                            <button className="border-none rounded-sm p-4 bg-surface text-text cursor-pointer">Start Now</button>
                         </article>
                     </div>
                 </section>
@@ -119,30 +119,30 @@ function App() {
                     </div>
                 </section>
 
-                <section className="flex flex-col items-center text-center rounded-sm py-24 px-8">
+                <section className="flex flex-col items-center text-center py-24 px-8">
                     <h2 className="text-3xl md:text-4xl">
                         Get the app for Free
                         and Start Now
                     </h2>
-                    <button className="bg-inverse text-on-inverse rounded-sm py-2 px-8 my-4">Download App</button>
+                    <button className="bg-inverse text-on-inverse rounded-sm py-2 px-8 my-4 cursor-pointer">Download App</button>
                 </section>
 
-                <footer className="bg-surface">
+                <footer className="bg-inverse text-on-inverse p-8">
                     <div>Cashmap</div>
 
                     <div>
-                        <h4>Resources</h4>
+                        <h3 className="font-bold my-5">Resources</h3>
                         <ul className="ps-10">
-                            <li><a href>Stocks &amp; Funds</a></li>
-                            <li><a href>Learn</a></li>
-                            <li><a href>Help &amp; Support</a></li>
-                            <li><a href>Blog</a></li>
+                            <li><a href="#">Stocks &amp; Funds</a></li>
+                            <li><a href="#">Learn</a></li>
+                            <li><a href="#">Help &amp; Support</a></li>
+                            <li><a href="#">Blog</a></li>
                         </ul>
                     </div>
 
                     <div>
-                        <h4>Company</h4>
-                        <ul className="p-2 ps-10">
+                        <h3 className="font-bold my-5">Company</h3>
+                        <ul className="ps-10">
                             <li><a href="#">About</a></li>
                             <li><a href="#">Careers</a></li>
                             <li><a href="#">Privacy</a></li>
@@ -151,10 +151,10 @@ function App() {
                     </div>
 
                     <div>
-                        <h4>Subscribe to News</h4>
+                        <h3 className="font-bold my-5">Subscribe to News</h3>
                         <form>
                             <input type="email" placeholder="Your e-mail"/>
-                            <button type="submit">Subscribe</button>
+                            <button type="submit cursor-pointer">Subscribe</button>
                         </form>
                     </div>
                 </footer>
